@@ -455,5 +455,49 @@
                 "ap-southeast-2"
             ]
         ]
+    },
+    "oracle": {
+        "argc": 1,
+        "domain": "http://{0}.oracle.cloudharmony.net/probe/test100mb.bin",
+        "idc": "oracle",
+        "localized_idc": "Oracle Cloud Compute",
+        "localized_data_center": [
+            "加拿大 魁北克省 蒙特利尔",
+            "加拿大 安大略省 多伦多",
+            "美国 亚利桑那州 凤凰城",
+            "美国 弗吉尼亚州 阿什本",
+            "巴西 圣保罗州 圣保罗",
+            "英国 伦敦",
+            "德国 黑森州 法兰克福",
+            "荷兰 北荷兰省 阿姆斯特丹",
+            "瑞士 苏黎世州 苏黎世",
+            "沙特阿拉伯 麦加省 吉达",
+            "韩国 首尔",
+            "日本 东京都 东京",
+            "日本 大阪府 大阪",
+            "印度 马哈拉施特拉邦 孟买",
+            "澳大利亚 维多利亚州 墨尔本",
+            "澳大利亚 新南威尔士州 悉尼"
+        ],
+        "prefix": [
+            [
+                "ca-montreal-1",
+                "ca-toronto-1",
+                "us-phoenix-1",
+                "us-ashburn-1",
+                "sa-saopaulo-1",
+                "uk-london-1",
+                "eu-frankfurt-1",
+                "eu-amsterdam-1",
+                "eu-zurich-1",
+                "me-jeddah-1",
+                "ap-seoul-1",
+                "ap-tokyo-1",
+                "ap-osaka-1",
+                "ap-mumbai-1",
+                "ap-melbourne-1",
+                "ap-sydney-1"
+            ]
+        ]
     }
 }

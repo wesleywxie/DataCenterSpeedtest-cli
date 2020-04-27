@@ -227,7 +227,7 @@
     }, 
     "gcp": {
         "argc": 1, 
-        "domain": "http://{0}-gce.cloudharmony.net/probe/test100mb.bin", 
+        "domain": "http://{0}-gce.cloudharmony.net/probe/test100mb.bin",
         "idc": "gcp", 
         "localized_data_center": [
             "美国 南卡罗来纳州 蒙克斯科纳", 
@@ -240,7 +240,8 @@
             "中国 香港", 
             "日本 东京都 东京", 
             "日本 大阪府 大阪", 
-            "印度 马哈拉施特拉邦 孟买", 
+            "韩国 首尔",
+            "印度 马哈拉施特拉邦 孟买",
             "新加坡 新加坡", 
             "澳大利亚 新南威尔士州 悉尼", 
             "芬兰 屈米河谷区 哈米纳", 
@@ -263,6 +264,7 @@
             "asia-east2",
             "asia-northeast1",
             "asia-northeast2",
+            "asia-northeast3",
             "asia-south1",
             "asia-southeast1",
             "australia-southeast1",

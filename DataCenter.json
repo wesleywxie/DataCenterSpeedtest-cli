@@ -26,31 +26,65 @@
             "巴林 巴林"
         ], 
         "localized_idc": "Amazon Web Services", 
-        "prefix": [
-            [
-                "us-east-1", 
-                "us-east-2a", 
-                "us-east-2b", 
-                "us-west-1", 
-                "us-west-2", 
-                "eu-north-1", 
-                "ca-central-1", 
-                "eu-central-1", 
-                "eu-west-1", 
-                "eu-west-2", 
-                "eu-west-3", 
-                "eu-north-1", 
-                "ap-east-1", 
-                "ap-northeast-1", 
-                "ap-northeast-2", 
-                "ap-south-1", 
-                "ap-southeast-1", 
-                "ap-southeast-2", 
-                "sa-east-1", 
-                "me-south-1"
-            ]
-        ]
-    }, 
+        "prefix": [[
+            "us-east-1",
+            "us-east-2a",
+            "us-east-2b",
+            "us-west-1",
+            "us-west-2",
+            "eu-north-1",
+            "ca-central-1",
+            "eu-central-1",
+            "eu-west-1",
+            "eu-west-2",
+            "eu-west-3",
+            "eu-north-1",
+            "ap-east-1",
+            "ap-northeast-1",
+            "ap-northeast-2",
+            "ap-south-1",
+            "ap-southeast-1",
+            "ap-southeast-2",
+            "sa-east-1",
+            "me-south-1"
+        ]]
+    },
+    "lightsail": {
+        "argc": 1,
+        "domain": "http://{0}.lightsail.cloudharmony.net/probe/test100mb.bin",
+        "idc": "aws-lightsail",
+        "localized_idc": "Amazon Lightsail",
+        "localized_data_center": [
+            "加拿大 魁北克省 蒙特利尔",
+            "美国 弗吉尼亚州 阿什本",
+            "美国 俄亥俄州 都柏林",
+            "美国 俄勒冈州 波特兰",
+            "德国 黑森州 法兰克福",
+            "爱尔兰 都柏林郡 都柏林",
+            "英国 伦敦",
+            "法国 法兰西岛大区 巴黎",
+            "日本 东京都 东京",
+            "韩国 首尔",
+            "新加坡 新加坡",
+            "澳大利亚 新南威尔士州 悉尼",
+            "印度 马哈拉施特拉邦 孟买"
+        ],
+        "prefix": [[
+            "ca-central-1",
+            "us-east-1",
+            "us-east-2",
+            "us-west-2",
+            "eu-central-1",
+            "eu-west-1",
+            "eu-west-2",
+            "eu-west-3",
+            "ap-northeast-1",
+            "ap-northeast-2",
+            "ap-southeast-1",
+            "ap-southeast-2",
+            "ap-south-1"
+        ]]
+    },
     "buyvm": {
         "argc": 1, 
         "domain": "https://speedtest.{0}.buyvm.net/100MB.test", 
@@ -61,13 +95,11 @@
             "卢森堡 卢森堡"
         ], 
         "localized_idc": "Frantech(Buyvm)", 
-        "prefix": [
-            [
-                "lv", 
-                "ny", 
-                "lu"
-            ]
-        ]
+        "prefix": [[
+            "lv",
+            "ny",
+            "lu"
+        ]]
     }, 
     "do": {
         "argc": 1, 
@@ -88,22 +120,20 @@
             "印度 卡纳塔克邦 班加罗尔"
         ], 
         "localized_idc": "DigitalOcean", 
-        "prefix": [
-            [
-                "NYC1", 
-                "NYC2", 
-                "NYC3", 
-                "SFO1", 
-                "SFO2", 
-                "TOR1", 
-                "LON1", 
-                "FRA1", 
-                "AMS2", 
-                "AMS3", 
-                "SGP1", 
-                "BLR1"
-            ]
-        ]
+        "prefix": [[
+            "NYC1",
+            "NYC2",
+            "NYC3",
+            "SFO1",
+            "SFO2",
+            "TOR1",
+            "LON1",
+            "FRA1",
+            "AMS2",
+            "AMS3",
+            "SGP1",
+            "BLR1"
+        ]]
     }, 
     "gcp": {
         "argc": 1, 
@@ -132,30 +162,28 @@
             "巴西 巴西"
         ], 
         "localized_idc": "Google Cloud Platform", 
-        "prefix": [
-            [
-                "us-east1", 
-                "us-east4", 
-                "us-west1", 
-                "us-west2-a", 
-                "us-central1", 
-                "northamerica-northeast1", 
-                "asia-east1", 
-                "asia-east2", 
-                "asia-northeast1", 
-                "asia-northeast2", 
-                "asia-south1", 
-                "asia-southeast1", 
-                "australia-southeast1", 
-                "europe-north1", 
-                "europe-west1", 
-                "europe-west2", 
-                "europe-west3", 
-                "europe-west4", 
-                "europe-west6", 
-                "southamerica-east1"
-            ]
-        ]
+        "prefix": [[
+            "us-east1",
+            "us-east4",
+            "us-west1",
+            "us-west2-a",
+            "us-central1",
+            "northamerica-northeast1",
+            "asia-east1",
+            "asia-east2",
+            "asia-northeast1",
+            "asia-northeast2",
+            "asia-south1",
+            "asia-southeast1",
+            "australia-southeast1",
+            "europe-north1",
+            "europe-west1",
+            "europe-west2",
+            "europe-west3",
+            "europe-west4",
+            "europe-west6",
+            "southamerica-east1"
+        ]]
     }, 
     "hosthatch": {
         "argc": 1, 
@@ -173,19 +201,17 @@
             "中国 香港"
         ], 
         "localized_idc": "HostHatch", 
-        "prefix": [
-            [
-                "http://lg.ams.hosthatch.com/100MB.test", 
-                "http://lg.sto.hosthatch.com/100MB.test", 
-                "http://lg.lax.hosthatch.com/100MB.test", 
-                "http://lg.ny.hosthatch.com/100MB.test", 
-                "http://lg.vie.hosthatch.com/100MB.test", 
-                "http://lg.osl.hosthatch.com/100MB.test", 
-                "http://172.107.196.100/200MB.test", 
-                "http://168.1.1.212/downloads/test100.zip", 
-                "http://speedtest.hkg02.softlayer.com/downloads/test100.zip"
-            ]
-        ]
+        "prefix": [[
+            "http://lg.ams.hosthatch.com/100MB.test",
+            "http://lg.sto.hosthatch.com/100MB.test",
+            "http://lg.lax.hosthatch.com/100MB.test",
+            "http://lg.ny.hosthatch.com/100MB.test",
+            "http://lg.vie.hosthatch.com/100MB.test",
+            "http://lg.osl.hosthatch.com/100MB.test",
+            "http://172.107.196.100/200MB.test",
+            "http://168.1.1.212/downloads/test100.zip",
+            "http://speedtest.hkg02.softlayer.com/downloads/test100.zip"
+        ]]
     }, 
     "hostus": {
         "argc": 1, 
@@ -201,17 +227,15 @@
             "美国 弗吉尼亚州 阿什本"
         ], 
         "localized_idc": "HostUS", 
-        "prefix": [
-            [
-                "ams", 
-                "lon", 
-                "clt", 
-                "atl", 
-                "dal", 
-                "la", 
-                "wdc"
-            ]
-        ]
+        "prefix": [[
+            "ams",
+            "lon",
+            "clt",
+            "atl",
+            "dal",
+            "la",
+            "wdc"
+        ]]
     }, 
     "hostus-softlayer": {
         "argc": 1, 
@@ -223,13 +247,11 @@
             "澳大利亚 新南威尔士州 悉尼"
         ], 
         "localized_idc": "HostUS(Softlayer)", 
-        "prefix": [
-            [
-                "hkg02", 
-                "sng01", 
-                "syd01"
-            ]
-        ]
+        "prefix": [[
+            "hkg02",
+            "sng01",
+            "syd01"
+        ]]
     }, 
     "linode": {
         "argc": 2, 
@@ -247,30 +269,27 @@
             "印度 马哈拉施特拉邦 孟买"
         ], 
         "localized_idc": "Linode", 
-        "prefix": [
-            [
-                "newark", 
-                "dallas", 
-                "fremont", 
-                "toronto1", 
-                "frankfurt", 
-                "london", 
-                "singapore", 
-                "tokyo2", 
-                "mumbai1"
-            ], 
-            [
-                "newark", 
-                "dallas", 
-                "fremont", 
-                "toronto", 
-                "frankfurt", 
-                "london", 
-                "singapore", 
-                "tokyo2", 
-                "mumbai"
-            ]
-        ]
+        "prefix": [[
+            "newark",
+            "dallas",
+            "fremont",
+            "toronto1",
+            "frankfurt",
+            "london",
+            "singapore",
+            "tokyo2",
+            "mumbai1"
+        ], [
+            "newark",
+            "dallas",
+            "fremont",
+            "toronto",
+            "frankfurt",
+            "london",
+            "singapore",
+            "tokyo2",
+            "mumbai"
+        ]]
     }, 
     "nexusbytes": {
         "argc": 1, 
@@ -283,14 +302,12 @@
             "德国 巴伐利亚州 纽伦堡"
         ], 
         "localized_idc": "Nexus Bytes", 
-        "prefix": [
-            [
-                "ny", 
-                "mi", 
-                "la", 
-                "ger"
-            ]
-        ]
+        "prefix": [[
+            "ny",
+            "mi",
+            "la",
+            "ger"
+        ]]
     }, 
     "ultravps": {
         "argc": 1, 
@@ -306,17 +323,15 @@
             "立陶宛 希奥利艾县希 奥利艾"
         ], 
         "localized_idc": "Ultravps", 
-        "prefix": [
-            [
-                "ams.nl", 
-                "kiv.md", 
-                "dus.de", 
-                "dal.us", 
-                "lon.uk", 
-                "lax.us", 
-                "sqq.lt"
-            ]
-        ]
+        "prefix": [[
+            "ams.nl",
+            "kiv.md",
+            "dus.de",
+            "dal.us",
+            "lon.uk",
+            "lax.us",
+            "sqq.lt"
+        ]]
     }, 
     "vir": {
         "argc": 1, 
@@ -337,22 +352,20 @@
             "美国 加利福尼亚州 圣何塞"
         ], 
         "localized_idc": "VirMach", 
-        "prefix": [
-            [
-                "la", 
-                "ffm", 
-                "ams", 
-                "ny", 
-                "nj", 
-                "dal", 
-                "phx", 
-                "filtered-la", 
-                "chi", 
-                "sea", 
-                "atl", 
-                "sj"
-            ]
-        ]
+        "prefix": [[
+            "la",
+            "ffm",
+            "ams",
+            "ny",
+            "nj",
+            "dal",
+            "phx",
+            "filtered-la",
+            "chi",
+            "sea",
+            "atl",
+            "sj"
+        ]]
     }, 
     "vultr": {
         "argc": 1, 
@@ -376,25 +389,23 @@
             "日本 东京都 东京"
         ], 
         "localized_idc": "Vultr", 
-        "prefix": [
-            [
-                "NJ-US", 
-                "IL-US", 
-                "GA-US", 
-                "FL-US", 
-                "TX-US", 
-                "SJO-CA-US", 
-                "WA-US", 
-                "TOR-CA", 
-                "FRA-DE", 
-                "AMS-NL", 
-                "PAR-FR", 
-                "LON-GB", 
-                "SYD-AU", 
-                "SGP", 
-                "HND-JP"
-            ]
-        ]
+        "prefix": [[
+            "NJ-US",
+            "IL-US",
+            "GA-US",
+            "FL-US",
+            "TX-US",
+            "SJO-CA-US",
+            "WA-US",
+            "TOR-CA",
+            "FRA-DE",
+            "AMS-NL",
+            "PAR-FR",
+            "LON-GB",
+            "SYD-AU",
+            "SGP",
+            "HND-JP"
+        ]]
     },
     "oracle": {
         "argc": 1,
@@ -419,26 +430,24 @@
             "澳大利亚 维多利亚州 墨尔本",
             "澳大利亚 新南威尔士州 悉尼"
         ],
-        "prefix": [
-            [
-                "ca-montreal-1",
-                "ca-toronto-1",
-                "us-phoenix-1",
-                "us-ashburn-1",
-                "sa-saopaulo-1",
-                "uk-london-1",
-                "eu-frankfurt-1",
-                "eu-amsterdam-1",
-                "eu-zurich-1",
-                "me-jeddah-1",
-                "ap-seoul-1",
-                "ap-tokyo-1",
-                "ap-osaka-1",
-                "ap-mumbai-1",
-                "ap-melbourne-1",
-                "ap-sydney-1"
-            ]
-        ]
+        "prefix": [[
+            "ca-montreal-1",
+            "ca-toronto-1",
+            "us-phoenix-1",
+            "us-ashburn-1",
+            "sa-saopaulo-1",
+            "uk-london-1",
+            "eu-frankfurt-1",
+            "eu-amsterdam-1",
+            "eu-zurich-1",
+            "me-jeddah-1",
+            "ap-seoul-1",
+            "ap-tokyo-1",
+            "ap-osaka-1",
+            "ap-mumbai-1",
+            "ap-melbourne-1",
+            "ap-sydney-1"
+        ]]
     },
     "layerStack": {
         "argc": 1,
@@ -453,16 +462,14 @@
             "美国 加利福尼亚州 洛杉矶"
         ],
         "localized_idc": "LayerStack",
-        "prefix": [
-            [
-                "hk01",
-                "hk02",
-                "hk03",
-                "sg01",
-                "jp01",
-                "la01"
-            ]
-        ]
+        "prefix": [[
+            "hk01",
+            "hk02",
+            "hk03",
+            "sg01",
+            "jp01",
+            "la01"
+        ]]
     },
     "alibaba": {
         "argc": 1,
@@ -483,22 +490,20 @@
             "澳大利亚 新南威尔士州 悉尼"
         ],
         "localized_idc": "Alibaba Elastic Compute Service",
-        "prefix": [
-            [
-                "us-east-1",
-                "us-west-1",
-                "eu-central-1",
-                "eu-west-1",
-                "me-east-1",
-                "cn-hongkong",
-                "ap-northeast-1",
-                "ap-south-1",
-                "ap-southeast-1",
-                "ap-southeast-3",
-                "ap-southeast-5",
-                "ap-southeast-2"
-            ]
-        ]
+        "prefix": [[
+            "us-east-1",
+            "us-west-1",
+            "eu-central-1",
+            "eu-west-1",
+            "me-east-1",
+            "cn-hongkong",
+            "ap-northeast-1",
+            "ap-south-1",
+            "ap-southeast-1",
+            "ap-southeast-3",
+            "ap-southeast-5",
+            "ap-southeast-2"
+        ]]
     },
     "tencent": {
         "argc": 1,
@@ -518,20 +523,18 @@
             "印度 马哈拉施特拉邦 孟买"
         ],
         "localized_idc": "Tencent Cloud Virtual Machine",
-        "prefix": [
-            [
-                "na-toronto",
-                "na-ashburn",
-                "na-siliconvalley",
-                "eu-moscow",
-                "eu-frankfurt",
-                "ap-tokyo",
-                "ap-seoul",
-                "ap-hongkong",
-                "ap-singapore",
-                "ap-bangkok",
-                "ap-mumbai"
-            ]
-        ]
+        "prefix": [[
+            "na-toronto",
+            "na-ashburn",
+            "na-siliconvalley",
+            "eu-moscow",
+            "eu-frankfurt",
+            "ap-tokyo",
+            "ap-seoul",
+            "ap-hongkong",
+            "ap-singapore",
+            "ap-bangkok",
+            "ap-mumbai"
+        ]]
     }
 }

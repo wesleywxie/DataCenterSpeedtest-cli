@@ -395,5 +395,29 @@
                 "HND-JP"
             ]
         ]
+    },
+    "layerStack": {
+        "argc": 1,
+        "domain": "http://{0}.layerstack.com/100MB.test",
+        "idc": "layerStack",
+        "localized_data_center": [
+            "香港 香港 01",
+            "香港 香港 02",
+            "香港 香港 03",
+            "新加坡 新加坡",
+            "日本 东京都 东京",
+            "美国 加利福尼亚州 洛杉矶"
+        ],
+        "localized_idc": "LayerStack",
+        "prefix": [
+            [
+                "hk01",
+                "hk02",
+                "hk03",
+                "sg01",
+                "jp01",
+                "la01"
+            ]
+        ]
     }
 }

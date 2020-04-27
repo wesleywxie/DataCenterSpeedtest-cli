@@ -419,5 +419,41 @@
                 "la01"
             ]
         ]
+    },
+    "alibaba": {
+        "argc": 1,
+        "domain": "http://{0}.alibaba.cloudharmony.net/probe/test100mb.bin",
+        "idc": "alibaba",
+        "localized_data_center": [
+            "美国 弗吉尼亚州 斯特灵",
+            "美国 加利福尼亚州 圣克拉拉",
+            "德国 黑森州 法兰克福",
+            "英国 伦敦",
+            "阿联酋 迪拜酋长国 迪拜",
+            "中国 香港",
+            "日本 东京都 东京",
+            "印度 马哈拉施特拉邦 孟买",
+            "新加坡 新加坡",
+            "马来西亚 吉隆坡联邦直辖区",
+            "印度尼西亚 雅加达",
+            "澳大利亚 新南威尔士州 悉尼"
+        ],
+        "localized_idc": "Alibaba Elastic Compute Service",
+        "prefix": [
+            [
+                "us-east-1",
+                "us-west-1",
+                "eu-central-1",
+                "eu-west-1",
+                "me-east-1",
+                "cn-hongkong",
+                "ap-northeast-1",
+                "ap-south-1",
+                "ap-southeast-1",
+                "ap-southeast-3",
+                "ap-southeast-5",
+                "ap-southeast-2"
+            ]
+        ]
     }
 }

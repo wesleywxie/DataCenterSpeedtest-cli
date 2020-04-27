@@ -87,7 +87,7 @@
     },
     "azure": {
         "argc": 1,
-        "domain": "{0}.azure.cloudharmony.net/probe/test100mb.bin",
+        "domain": "http://{0}.azure.cloudharmony.net/probe/test100mb.bin",
         "idc": "azure",
         "localized_idc": "Microsoft Azure Virtual Machines",
         "localized_data_center": [
